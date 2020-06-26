@@ -1,0 +1,132 @@
+:root {
+    --primary-header: #222;
+    --primary-text: #444;
+    --primary-bcg: #DDD;
+
+    --tertiary-text: #AAD;
+    --tertiary-highlight: #557;
+    --tertiary-bcg: #224;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+body{
+    max-width: 1800px;
+    width: 100%;
+    display: block;
+}
+
+/* Menu stuff */
+
+#menu-switch{
+    position: fixed;
+    top: 0;
+    right: 15px;
+    width: 100px;
+    height: 50px;
+    z-index: 2;
+    visibility: visible;
+
+
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+
+    color: var(--tertiary-text);
+    background: var(--tertiary-bcg);
+    font-size: 16px;
+}
+#menu-switch:hover{
+    outline: none;
+    border: none;
+    background: var(--tertiary-highlight);
+}
+#menu-switch:focus{
+    outline: none;
+    border: none;
+}
+
+#menu-branch{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    z-index: 1;
+    width: 100%;
+    visibility: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 400px;
+    overflow-y: scroll;
+    scrollbar-width: 0px;
+    
+}
+li{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.item{
+    color: var(--tertiary-text)
+}
+.item > a {
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: var(--tertiary-bcg);
+}
+.item > a:hover {
+    background: var(--tertiary-bcg);
+}
+li.title{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #088;
+
+    color: #CCC;
+}
+
+/* Content stuff */
+
+#content-branch{
+    width: 100%;
+    height: 100%;
+    color: var(--primary-text)
+}
+#major{
+    background: var(--primary-bcg);
+    width: 100%;
+}
+#minor{
+    background: var(--primary-bcg);
+    width: 100%;
+}
+
+.justified{
+    padding: 0 20px 20px 20px;
+    text-align: justify;
+}
+.image-object{
+    margin: 0 auto 0 auto;
+    width: 200px;
+    height: 200px;
+    background: #555;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: var(--primary-header);
+    margin-left: 50px;
+}
+
+.picturebox{
+    text-align: center;
+}

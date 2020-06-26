@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>II wojna swiatowa web/mobile</title>
+    <link rel="stylesheet" media="(min-width: 801px)" href="style-wide.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="style-mobile.css">
+    
+  </head>
+  
+  <style>
+  a {
+  color: hotpink;
+}
+  
+  </style>
+  <body id="bodyElement" onresize="updateMode()" onload="setMode()">
+    <button id="menu-switch" onclick="showHideMenu()">Menu</button>
+    <div id="root">
+      <div id="menu-branch">
+        <ul>
+          <li class="title">Menu</li>
+		 
+		  
+		  <li class="item"><a href="index.html">WW II</a></li>
+		  <li class="item"><a href="main.html">Czolgi- zadania 1-4</a></li>
+          <li class="item"><a href="sherman.html">M4 Sherman</a></li>
+          <li class="item"><a href="abrams.html">M1 Abrams</a></li>
+          <li class="item"><a href="pattons.html">M46/M48 Patton</a></li>
+          <li class="item"><a href="galeria.html">Galeria</a></li>
+         <li class="button" onclick="window.print()">Wydrukuj</button></li>
+		 </div>
+		  
+		  
+		  
+        </ul>
+      </div>
+       
+      <div id="content-branch">
+        <div id="major">
+          <h1> II Wojna swiatowa</h1>
+          <!-- Blok Tekstu -->
+          <div class="justified">
+        II wojna światowa – największa wojna światowa w historii, trwająca od 1 września 1939 do 2 września 1945 (w Europie do 8/9 maja 1945). Jej teatr działań wojennych objął prawie całą Europę, wschodnią i południowo-wschodnią Azję, północną Afrykę, część Bliskiego Wschodu i wszystkie oceany. Niektóre epizody wojny rozgrywały się nawet w Arktyce i Ameryce Północnej. Poza większością państw europejskich i ich koloniami, brały w niej udział państwa Ameryki Północnej i Ameryki Południowej oraz Azji. Głównymi stronami konfliktu były państwa Osi i państwa koalicji antyhitlerowskiej (alianci). W wojnie uczestniczyło 1,7 mld ludzi, w tym 110 mln ludzi z bronią[2]. Według różnych szacunków zginęło w niej od 50[3] do 78[4] milionów ludzi.  </div>
+          <!-- Obrazek -->
+          <div class="picturebox">
+
+            <img src="pics/wwii.jpg" alt="WWII">
+          </div>
+          <!-- Blok Tekstu -->
+          <div class="justified">
+          Za datę rozpoczęcia wojny przyjmuje się 1 września 1939 roku – agresję Niemiec na Polskę. 3 września 1939, po zignorowaniu przez III Rzeszę ultimatum w sprawie bezzwłocznego wycofania wojsk z Polski, Wielka Brytania i Francja wypowiedziały wojnę III Rzeszy (w piśmiennictwie zachodnim podaje się czasami tę datę jako początek wojny światowej). W historiografii ZSRR i współczesnej rosyjskiej używane jest pojęcie tzw. wielkiej wojny ojczyźnianej – od 22 czerwca 1941 ataku III Rzeszy na ZSRR do 9 maja 1945 – powtórzonej kapitulacji III Rzeszy w Berlinie, według czasu moskiewskiego. Historiografia sowiecka i współczesna rosyjska odrzuca bowiem udział ZSRR w wojnie po stronie III Rzeszy w latach 1939–1941 – od paktu Ribbentrop-Mołotow z 23 sierpnia 1939 i niemiecko-sowieckiego traktatu o granicach i przyjaźni z 28 września 1939 (agresja ZSRR na Polskę, wojna zimowa przeciw Finlandii, okupacja krajów bałtyckich i Besarabii) do ataku III Rzeszy na ZSRR.  </div>
+        </div>
+
+
+        <div id="minor">
+          <h1> II Wojna Swiatowa mobile</h1>
+          <!-- Blok Tekstu -->
+          <div class="justified">
+        II wojna światowa – największa wojna światowa w historii, trwająca od 1 września 1939 do 2 września 1945 (w Europie do 8/9 maja 1945). Jej teatr działań wojennych objął prawie całą Europę, wschodnią i południowo-wschodnią Azję, północną Afrykę, część Bliskiego Wschodu i wszystkie oceany. Niektóre epizody wojny rozgrywały się nawet w Arktyce i Ameryce Północnej. Poza większością państw europejskich i ich koloniami, brały w niej udział państwa Ameryki Północnej i Ameryki Południowej oraz Azji. Głównymi stronami konfliktu były państwa Osi i państwa koalicji antyhitlerowskiej (alianci). W wojnie uczestniczyło 1,7 mld ludzi, w tym 110 mln ludzi z bronią[2]. Według różnych szacunków zginęło w niej od 50[3] do 78[4] milionów ludzi.  </div>
+          <!-- Obrazek -->
+          <div class="picturebox">
+            <img src="pics/wwii.jpg" alt="WWII">
+			
+          </div>
+          <!-- Blok Tekstu -->
+          <div class="justified">
+       Za datę rozpoczęcia wojny przyjmuje się 1 września 1939 roku – agresję Niemiec na Polskę. 3 września 1939, po zignorowaniu przez III Rzeszę ultimatum w sprawie bezzwłocznego wycofania wojsk z Polski, Wielka Brytania i Francja wypowiedziały wojnę III Rzeszy (w piśmiennictwie zachodnim podaje się czasami tę datę jako początek wojny światowej). W historiografii ZSRR i współczesnej rosyjskiej używane jest pojęcie tzw. wielkiej wojny ojczyźnianej – od 22 czerwca 1941 ataku III Rzeszy na ZSRR do 9 maja 1945 – powtórzonej kapitulacji III Rzeszy w Berlinie, według czasu moskiewskiego. Historiografia sowiecka i współczesna rosyjska odrzuca bowiem udział ZSRR w wojnie po stronie III Rzeszy w latach 1939–1941 – od paktu Ribbentrop-Mołotow z 23 sierpnia 1939 i niemiecko-sowieckiego traktatu o granicach i przyjaźni z 28 września 1939 (agresja ZSRR na Polskę, wojna zimowa przeciw Finlandii, okupacja krajów bałtyckich i Besarabii) do ataku III Rzeszy na ZSRR.  </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var menuVisible = true;
+      var mobile = false;
+
+      function showHideMenu() {
+        if(menuVisible){
+          document.getElementById("menu-branch").style.visibility="hidden";
+          menuVisible = false
+        }
+        else{
+          document.getElementById("menu-branch").style.visibility="visible";
+          menuVisible = true
+        }
+        
+      }
+      function setMode(){
+        if(document.getElementById("bodyElement").clientWidth < 800){
+          mobile = true;
+          document.getElementById("menu-branch").style.visibility="hidden";
+        }
+        else{
+          mobile = false;
+          document.getElementById("menu-branch").style.visibility="visible";
+        }
+      }
+      function updateMode(){
+        if(document.getElementById("bodyElement").clientWidth < 800){
+          mobile = true;
+          document.getElementById("menu-branch").style.visibility="hidden";
+        }
+        else{
+          mobile = false;
+          document.getElementById("menu-branch").style.visibility="visible";
+        }
+      }
+    </script>
+	
+  </body>
+
+</html>
